@@ -57,6 +57,7 @@ Copia e incolla il codice qui sopra.
 Completa tutte le parti indicate nei commenti <!-- -->.
 Salva e apri il file con il browser per vedere il risultato.
 
+Per questo esercizio, aiutati con [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements). È importante soprattutto imparare **come cercare**!
 
 ```html
 <!DOCTYPE html>
