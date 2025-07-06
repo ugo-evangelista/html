@@ -56,13 +56,15 @@ Rilascia raccomandazioni (chiamate W3C Recommendations) che diventano la guida p
 Collabora con browser (come Chrome, Firefox, Safari) per garantire che tutti parlino lo "stesso linguaggio".
 
 ## Esercizio
-Apri VS Code o un editor a scelta.
-Crea un nuovo file chiamato profilo.html.
-Copia e incolla il codice qui sopra.
-Completa tutte le parti indicate nei commenti <!-- -->.
-Salva e apri il file con il browser per vedere il risultato.
+- Apri VS Code o un editor a scelta.
+- Crea un nuovo file chiamato profilo.html.
+- Copia e incolla il codice qui sopra.
+- Sostituisci le parti indicate nei commenti <!-- -->.
+- Salva e apri il file con il browser per vedere il risultato.
 
-Per questo esercizio, aiutati con [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements). È importante soprattutto imparare **come cercare**!
+Per questo esercizio, aiutati con [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements). 
+
+È importante soprattutto imparare **come cercare** e **dove cercare**!
 
 ```html
 <!DOCTYPE html>
