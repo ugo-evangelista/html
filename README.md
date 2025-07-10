@@ -1,4 +1,5 @@
 # HTML
+
 Abbiamo visto cosa è HTML (**H**yper**T**ext **M**arkup **L**anguage).
 HTML è il linguaggio che usiamo per creare le pagine web, in altre parole lo standard universale per creare e organizzare i contenuti di tutte le pagine web su Internet.
 
@@ -6,36 +7,44 @@ HTML è il linguaggio che usiamo per creare le pagine web, in altre parole lo st
 > **Non è un linguaggio di programmazione**, ma un **linguaggio di markup**: serve per descrivere la struttura e i contenuti di una pagina.
 
 ## 🧠 Cosa significa "markup"?
+
 Significa “marcare” il contenuto con dei **tag**, per dire al browser che cos'è:
 
-“Questo è un titolo” 
+“Questo è un titolo”
+
 ```
 h1, h2, ...,  h6.
 ```
 
 “Questo è un paragrafo”
+
 ```
 p
 ```
 
 “Questa è un’immagine”
+
 ```
 img
 ```
 
 “Questo è un link”
+
 ```
 a
 ```
 
 ### Ciascun tag ha un suo valore semantico ben preciso
+
 Ci sono delle buone ragioni per restare aderenti a questi standard. C'entra l'accessibilità, il modo con cui visivamente diamo una gerarchia delle informazioni alla pagina e la SEO.
 In soldoni, una pagina web deve:
+
 - Essere fruibile a tutti, anche a utenti con difficoltà visive;
 - Avere un ordine logico
 - Farsi trovare su Google.
 
-## Chi decide questo standard? 
+## Chi decide questo standard?
+
 Il W3C – World Wide Web Consortium
 Il W3C è l’organizzazione principale che definisce gli standard per il web, come HTML, CSS, e tanti altri.
 
@@ -52,44 +61,6 @@ Stabile nel tempo
 Gratuito e aperto
 
 ### Cosa fa il W3C concretamente?
+
 Rilascia raccomandazioni (chiamate W3C Recommendations) che diventano la guida per browser e sviluppatori.
 Collabora con browser (come Chrome, Firefox, Safari) per garantire che tutti parlino lo "stesso linguaggio".
-
-## Esercizio
-- Apri VS Code o un editor a scelta.
-- Crea un nuovo file chiamato profilo.html.
-- Copia e incolla il codice qui sopra.
-- Sostituisci le parti indicate nei commenti <!-- -->.
-- Salva e apri il file con il browser per vedere il risultato.
-
-Per questo esercizio, aiutati con [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements). 
-
-È importante soprattutto imparare **come cercare** e **dove cercare**!
-
-```html
-<!DOCTYPE html>
-<html>
-  <head>
-    <title><!-- Inserisci qui il titolo della tua pagina, lo vedrai apparire nella tab del browser --></title>
-  </head>
-  <body>
-    <!-- Inserisci un titolo, sarà il tuo nome e cognome -->
-
-    <!-- Inserisci l’URL di una tua foto o un'immagine a scelta -->
-
-    <!-- Scrivi una breve descrizione di te stesso, un piccolo paragrafo -->
-
-    <!-- Un altro titolo, meno importante di quello precedente: ad esempio "I miei hobby" o "I miei cibi preferiti" -->
-
-    <!-- Una lista: elenca almeno 3 hobby/cibi preferiti -->
-
-    
-      <!-- Inserisci, all'interno di un paragrafo, il link al tuo sito preferito
-          💡 suggerimento: i tag possono essere messi uno dentro l'altro, ad esempio il tag per un link può essere posizionato dentro
-             ad tag per il paragrafo!
-
-            Il link deve essere racchiuso in questa frase: "Visita il mio sito preferito"
-       -->
-  </body>
-</html>
-```
