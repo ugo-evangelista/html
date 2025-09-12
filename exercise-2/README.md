@@ -50,12 +50,21 @@ nomeAttributo="valore"
 
 ## Esercizio
 
-📝 Crea una pagina HTML intitolata “Chi sono” in cui racconti qualcosa su di te. Usa i tag HTML per organizzare le informazioni nel modo più chiaro possibile.
-Se vuoi una linea guida, puoi seguire questo schema:
+1. Inserisci un’immagine di tua scelta con attributo alt.
+2. Aggiungi un titolo (h2) e descrivi l’immagine con un paragrafo.
+3. Inserisci un’altra immagine ridimensionata (usa width/height).
+4. Inserisci una citazione (blockquote) con un autore.
+5. Aggiungi una lista di almeno 3 link a siti che ti piacciono.
+6. Usa "abbr" per scrivere una sigla (es. HTML).
+7. Inserisci una riga orizzontale e un "br" per provare la differenza.
 
-```
-- Titolo principale: Chi sono
-- Aggiungi un’immagine che ti rappresenta (oppure, se non hai idee, usa un’immagine generica https://placehold.co/150x150)
-- Elenca le tue passioni e per ognuna di esse aggiungi un link a wikipedia (ad esempio, se ti piace la musica, linka alla pagina di Wikipedia sulla musica).  
-  - Plus: fai in modo che il link si apra in una nuova scheda del browser.
-```   
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Esercizio 3 - Immagini e altro</title>
+</head>
+<body>
+  <!-- esercizio -->
+</body>
+</html>
