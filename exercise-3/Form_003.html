@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Contattami</h1>
+
+    <form method="post">
+      <!-- Campo Nome -->
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required />
+      <br /><br />
+
+      <!-- Campo Email -->
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+      <br /><br />
+
+      <!-- Campo Messaggio -->
+      <label for="messaggio">Messaggio:</label>
+      <hr>
+      <textarea id="messaggio" name="messaggio" rows="5" cols="30" required></textarea>
+      <br /><br />
+      <hr>  
+      <!-- Campo Motivo del contatto -->
+      <label for="motivo">Motivo del contatto:</label>
+      <select id="motivo" name="motivo">
+        <option value="info">Richiesta informazioni</option>
+        <option value="aiuto">Richiesta di supporto</option>
+        <option value="altro">Altro</option>
+      </select>
+      <br /><br />
+
+      <!-- Pulsante di invio -->
+      <input type="submit" value="Invia" />
+    </form>
+</body>
+</html>
